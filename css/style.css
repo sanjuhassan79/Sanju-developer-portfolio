@@ -10,3 +10,26 @@ h1 {
 h1 span {
     color: orangered;
 }
+
+section {
+    display: flex;
+}
+
+.my__div {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.div__div img {
+    width: 80%;
+}
+
+a.Hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}

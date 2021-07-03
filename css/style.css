@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -11,8 +12,11 @@ h1 span {
     color: orangered;
 }
 
-section {
+.container {
     display: flex;
+    background-image: url(../images/top-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .my__div {
